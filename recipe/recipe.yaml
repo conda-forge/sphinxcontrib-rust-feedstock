@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "1.2.1"
+  version: "1.3.0"
 
 package:
   name: sphinxcontrib-rust
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sphinxcontrib-rust/sphinxcontrib_rust-${{ version }}.tar.gz
-  sha256: 71ddb07f99d074549ccecc12924f844d415b4024bc469e95efff6d5c8ef3727d
+  sha256: 5aa6c362d552aaf6d7bad7a31fc771afd3d7dd27fe7ee439d7a545ad1872b1b9
   patches:
     # The Python package is pure Python; the executable it drives is packaged
     # separately as sphinx-rustdocgen.
